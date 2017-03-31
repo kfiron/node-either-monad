@@ -1,5 +1,7 @@
 # node-either-monad
 
+[![Build Status](https://travis-ci.org/kfiron/node-either-monad.svg?branch=master)](https://travis-ci.org/kfiron/node-either-monad)
+
 Either monad, good pattern to use when you have a function that may returns totally two different types
 
 ## install
@@ -28,7 +30,7 @@ let right.swap() /// returns left with the same data
 
 left.a // data of the left side
 right.b // data of the right side
-///
+
 ```
 
 
