@@ -28,7 +28,7 @@ let right.swap() /// returns left with the same data
 
 left.a // data of the left side
 right.b // data of the right side
-
+///
 ```
 
 
