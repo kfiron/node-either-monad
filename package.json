@@ -1,6 +1,6 @@
 {
   "name": "node-either-monad",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Either monad for node",
   "keywords": [
     "either",
