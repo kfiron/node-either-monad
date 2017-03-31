@@ -14,13 +14,14 @@ npm install --save node-either-monad
 ```js
 const either = require('node-either-monad')
 
-let left = either.left('data') // left
+let left = either.left(1) // left
 let right = either.right('data') //right
 
 left.isLeft() // true
 right.isRight() // true
 
-let dataFolded = either.fold(x => 'd' + x, y => y +4);
+let dataFolded = left.fold(x => x + 1, y => y + '-k'); // 2
+let dataFolded = right.fold(x => x + 1, y => y + '-k'); // data-k
 
 let left.swap() /// returns right with the same data
 let right.swap() /// returns left with the same data
